@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="267" delta="unknown" >"C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/M_datapathSim.v" Line 36: Cannot find port <arg fmt="%s" index="1">SrcB_out</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/M_datapathSim.v" Line 57: Module &lt;<arg fmt="%s" index="1">M_datapath</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ALU_Out</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/M_datapathSim.v" Line 58: Module &lt;<arg fmt="%s" index="1">M_datapath</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">SrcA_out</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/M_datapathSim.v" Line 59: Module &lt;<arg fmt="%s" index="1">M_datapath</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">SrcB_out</arg>&gt;.
+</msg>
+
+<msg type="error" file="Simulator" num="778" delta="unknown" >Static elaboration of top level Verilog design unit(s) in library <arg fmt="%s" index="1">work</arg> failed
+</msg>
+
+</messages>
+

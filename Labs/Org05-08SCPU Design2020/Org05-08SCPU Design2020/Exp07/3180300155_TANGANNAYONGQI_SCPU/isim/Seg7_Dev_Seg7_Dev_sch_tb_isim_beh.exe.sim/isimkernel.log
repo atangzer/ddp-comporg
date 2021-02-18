@@ -1,0 +1,28 @@
+Command line:
+   Seg7_Dev_Seg7_Dev_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63035
+
+Fri Jun 19 00:14:09 2020
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5465.37 Meg
+
+ Total Signals          : 243
+ Total Nets             : 133
+ Total Signal Drivers   : 58
+ Total Blocks           : 48
+ Total Primitive Blocks : 45
+ Total Processes        : 62
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 316
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5465.37 Meg
+
+Fri Jun 19 00:14:30 2020
+

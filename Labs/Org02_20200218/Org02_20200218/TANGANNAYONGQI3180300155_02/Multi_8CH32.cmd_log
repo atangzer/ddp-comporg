@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj OExp2-7SEG -o "C:/Users/Anna/Desktop/Comp Org/Labs/Org02_20200218/Org02_20200218/TANGANNAYONGQI3180300155_02/Multi_8CH32.tfi" -lib work "C:/Users/Anna/Desktop/Comp Org/Labs/Org02_20200218/Org02_20200218/TANGANNAYONGQI3180300155_02//Multi_8CH32_IO.v" -module Multi_8CH32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

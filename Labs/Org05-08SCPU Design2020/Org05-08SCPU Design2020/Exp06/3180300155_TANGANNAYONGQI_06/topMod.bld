@@ -1,0 +1,54 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ../../Exp05/3180300155_TANGANNAYONGQI_05 -sd
+ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2 topMod.ngc
+topMod.ngd
+
+Reading NGO file "C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU
+Design2020/Org05-08SCPU
+Design2020/Exp06/3180300155_TANGANNAYONGQI_06/topMod.ngc" ...
+Loading design module "C:\Users\Anna\Desktop\Comp Org\Labs\Org05-08SCPU
+Design2020\Org05-08SCPU
+Design2020\Exp06\3180300155_TANGANNAYONGQI_06/SAnti_jitter.ngc"...
+Loading design module "C:\Users\Anna\Desktop\Comp Org\Labs\Org05-08SCPU
+Design2020\Org05-08SCPU
+Design2020\Exp06\3180300155_TANGANNAYONGQI_06/SEnter_2_32.ngc"...
+Loading design module "C:\Users\Anna\Desktop\Comp Org\Labs\Org05-08SCPU
+Design2020\Org05-08SCPU
+Design2020\Exp06\3180300155_TANGANNAYONGQI_06/MIO_BUS.ngc"...
+Loading design module "ipcore_dir/RAM_B.ngc"...
+Loading design module "ipcore_dir/ROM_D.ngc"...
+Loading design module "../../Exp05/3180300155_TANGANNAYONGQI_05/P2S.ngc"...
+Loading design module "C:\Users\Anna\Desktop\Comp Org\Labs\Org05-08SCPU
+Design2020\Org05-08SCPU
+Design2020\Exp06\3180300155_TANGANNAYONGQI_06/LED_P2S.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Org-Sword.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4477792 kilobytes
+
+Writing NGD file "topMod.ngd" ...
+Total REAL time to NGDBUILD completion:  14 sec
+Total CPU time to NGDBUILD completion:   12 sec
+
+Writing NGDBUILD log file "topMod.bld"...

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Anna\Desktop\Comp Org\Labs\Org04_20200218\OExp04-IP2CPU\topMod.ncd
+OUTFILE=C:\Users\Anna\Desktop\Comp Org\Labs\Org04_20200218\OExp04-IP2CPU\topMod.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=C:\Users\Anna\Desktop\Comp Org\Labs\Org04_20200218\OExp04-IP2CPU
+LICENSE=ISE
+USER_INFO=211815314_0_0_301

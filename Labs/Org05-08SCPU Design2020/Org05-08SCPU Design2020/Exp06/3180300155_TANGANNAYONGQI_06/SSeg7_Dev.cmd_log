@@ -1,0 +1,1 @@
+sch2hdl -sympath {C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp06/OExp06-OwnSCPU/ipcore_dir} -intstyle ise -family kintex7 -verilog SSeg7_Dev_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp06/OExp06-OwnSCPU/SSeg7_Dev.sch} 

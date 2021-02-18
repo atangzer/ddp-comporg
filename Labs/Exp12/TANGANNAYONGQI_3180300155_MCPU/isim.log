@@ -1,0 +1,11 @@
+ISim log file
+Running: C:\Users\Anna\Desktop\Comp Org\Labs\Exp12\TANGANNAYONGQI_3180300155_12\M_datapathSim_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/M_datapathSim_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/M_datapath_IO.v" Line 105.  For instance uut/PC/, width 32 of formal port D is not equal to width 1 of actual signal PC_next.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

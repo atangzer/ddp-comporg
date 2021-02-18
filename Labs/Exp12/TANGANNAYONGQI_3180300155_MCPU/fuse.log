@@ -1,0 +1,51 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/M_datapathSim_isim_beh.exe -prj C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/M_datapathSim_beh.prj work.M_datapathSim work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/xor32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/srl32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/SignalExt_32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/or_bit_32 .v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/or32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/nor32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/MUX8T1_32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/and32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/addc_32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/Regs.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/REG32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/MUX4T1_5.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/MUX4T1_32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/MUX2T1_32.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/ALU.vf" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/M_datapath_IO.v" into library work
+Analyzing Verilog file "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/M_datapathSim.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/M_datapath_IO.v" Line 105: Size mismatch in connection of port <D>. Formal port size is 32-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module ADC32
+Compiling module and32
+Compiling module or32
+Compiling module xor32
+Compiling module nor32
+Compiling module srl32
+Compiling module or_bit_32
+Compiling module MUX8T1_32
+Compiling module SignalExt_32
+Compiling module GND
+Compiling module ALU
+Compiling module Regs
+Compiling module REG32
+Compiling module MUX4T1_5
+Compiling module MUX4T1_32
+Compiling module MUX2T1_32
+Compiling module M_datapath
+Compiling module M_datapathSim
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 19 Verilog Units
+Built simulation executable C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/TANGANNAYONGQI_3180300155_12/M_datapathSim_isim_beh.exe
+Fuse Memory Usage: 28844 KB
+Fuse CPU Usage: 609 ms

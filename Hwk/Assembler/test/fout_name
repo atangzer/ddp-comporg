@@ -1,0 +1,6 @@
+add $v1, $at, $at
+add $v1, $v1, $v1
+add $v1, $v1, $v1
+add $v1, $v1, $v1
+add $v1, $v1, $v1
+add $v1, $v1, $v1

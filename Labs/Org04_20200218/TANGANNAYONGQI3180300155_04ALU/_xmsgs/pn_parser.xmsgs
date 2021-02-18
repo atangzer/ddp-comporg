@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/Ext_imm16.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/MUX8T1_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/Regs.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/SignalExt_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/add_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/addc_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/and32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/nor32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/or32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/or_bit_32 .v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/srl32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/xor32.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,3 @@
+verilog work "M_datapath_IO.v"
+verilog work "mulit_ctrl_IO.v"
+verilog work "Multi_CPU.vf"

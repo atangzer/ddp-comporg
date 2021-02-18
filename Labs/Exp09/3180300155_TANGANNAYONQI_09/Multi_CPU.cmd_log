@@ -1,0 +1,8 @@
+sch2hdl -intstyle ise -family kintex7 -verilog Multi_CPU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/Multi_CPU.sch} 
+sch2sym -intstyle ise -family kintex7 -refsym Multi_CPU {C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/Multi_CPU.sch} {C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/Multi_CPU.sym} 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/Multi_CPU.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/Multi_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-2 "Multi_CPU.ngc" Multi_CPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Multi_CPU_map.ncd Multi_CPU.ngd Multi_CPU.pcf 
+par -w -intstyle ise -ol high -mt off Multi_CPU_map.ncd Multi_CPU.ncd Multi_CPU.pcf 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w {C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/Multi_CPU.sch} Multi_CPU.tfi 
+sch2hdl -sympath {C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/ngc} -sympath {C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/ipcore_dir} -intstyle ise -family kintex7 -verilog Multi_CPU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/Multi_CPU.sch} 

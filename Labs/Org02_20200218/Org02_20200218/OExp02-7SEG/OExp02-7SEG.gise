@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="OExp02-7SEG.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HexTo8SEG.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="HexTo8SEG.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="HexTo8SEG.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multi_8CH32.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Multi_8CH32.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multi_8CH32.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Multi_8CH32.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Multi_8CH32.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SPIO.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SPIO.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="SPIO.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SSeg_map.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SSeg_map.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="SSeg_map.xst"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+
+</generated_project>

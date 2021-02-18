@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="OExp05_DataPath" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/SSeg7_Dev C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|SSeg7_Dev.sch</ClosedNode>
+         <ClosedNode>/Seg7_Dev C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|Seg7_Dev.sch</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|3180300155_TANGANNAYONGQI_05|topMod.sch/U1 - SCPU/DataPath - Data_path/XLXI_16 - ALU</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|3180300155_TANGANNAYONGQI_05|topMod.sch/U6 - SSeg7_Dev</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|3180300155_TANGANNAYONGQI_05|topMod.sch/U61 - Seg7_Dev</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|3180300155_TANGANNAYONGQI_05|topMod.sch/U7 - SPIO</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U1 - SCPU/DataPath - Data_path/U1_1 - ALU</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U1 - SCPU/DataPath - Data_path/XLXI_3 - ALU</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U5 - Multi_8CH32</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev/SM1 - HexTo8SEG/M0 - Hex2Seg</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev/SM1 - HexTo8SEG/M1 - Hex2Seg</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev/SM1 - HexTo8SEG/M2 - Hex2Seg</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev/SM1 - HexTo8SEG/M3 - Hex2Seg</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev/SM1 - HexTo8SEG/M4 - Hex2Seg</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev/SM1 - HexTo8SEG/M5 - Hex2Seg</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev/SM1 - HexTo8SEG/M6 - Hex2Seg</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U6 - SSeg7_Dev/SM1 - HexTo8SEG/M7 - Hex2Seg</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U61 - Seg7_Dev</ClosedNode>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch/U7 - SPIO</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>U1 - SCPU (C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp05/3180300155_TANGANNAYONGQI_05/SCPU.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000042a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000042a0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>U1 - SCPU (C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp05/3180300155_TANGANNAYONGQI_05/SCPU.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002c60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\Anna\Desktop\Comp Org\Labs\Org05-08SCPU Design2020\Org05-08SCPU Design2020\Exp05\3180300155_TANGANNAYONGQI_05\addc_32.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000002640000010201000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000145000000010000000100000000000000000000000064ffffffff000000810000000000000001000001450000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000145000000010000000100000000000000000000000064ffffffff000000810000000000000001000001450000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/topMod C:|Users|Anna|Desktop|Comp Org|Labs|Org05-08SCPU Design2020|Org05-08SCPU Design2020|Exp05|OExp05_DataPath|topMod.sch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>UUT - Data_path (C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp05/3180300155_TANGANNAYONGQI_05/Data_path.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000045b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000045b0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>UUT - Data_path (C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp05/3180300155_TANGANNAYONGQI_05/Data_path.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Update All Schematic Files</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000145000000010000000100000000000000000000000064ffffffff000000810000000000000001000001450000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Update All Schematic Files</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+</Project>

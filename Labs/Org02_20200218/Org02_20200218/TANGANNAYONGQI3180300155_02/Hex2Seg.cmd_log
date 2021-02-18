@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org02_20200218/Org02_20200218/OExp2-7SEG/Hex2Seg.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org02_20200218/Org02_20200218/OExp2-7SEG/Hex2Seg.syr" 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org02_20200218/Org02_20200218/OExp2-7SEG/Hex2Seg.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org02_20200218/Org02_20200218/OExp2-7SEG/Hex2Seg.syr" 

@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SSeg7_Dev.vf
+// /___/   /\     Timestamp : 06/04/2020 16:24:36
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/OExp12-MSOC/ipcore_dir" -intstyle ise -family kintex7 -verilog "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/OExp12-MSOC/SSeg7_Dev.vf" -w "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/OExp12-MSOC/SSeg7_Dev.sch"
+//Design Name: SSeg7_Dev
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module SSeg7_Dev(clk, 
+                 flash, 
+                 Hexs, 
+                 LES, 
+                 point, 
+                 rst, 
+                 Start, 
+                 SW0, 
+                 seg_clk, 
+                 seg_clrn, 
+                 SEG_PEN, 
+                 seg_sout);
+
+    input clk;
+    input flash;
+    input [31:0] Hexs;
+    input [7:0] LES;
+    input [7:0] point;
+    input rst;
+    input Start;
+    input SW0;
+   output seg_clk;
+   output seg_clrn;
+   output SEG_PEN;
+   output seg_sout;
+   
+   wire [63:0] SEGMENT;
+   wire [63:0] XLXN_6;
+   wire [63:0] XLXN_7;
+   
+   MUX2T1_64  MUXSH2M (.a(XLXN_7[63:0]), 
+                      .b(XLXN_6[63:0]), 
+                      .sel(SW0), 
+                      .o(SEGMENT[63:0]));
+   P2S  M2 (.clk(clk), 
+           .P_Data(SEGMENT[63:0]), 
+           .rst(rst), 
+           .Serial(Start), 
+           .EN(SEG_PEN), 
+           .sout(seg_sout), 
+           .s_clk(seg_clk), 
+           .s_clrn(seg_clrn));
+   HexTo8SEG  SM1 (.flash(flash), 
+                  .Hexs(Hexs[31:0]), 
+                  .LES(LES[7:0]), 
+                  .points(point[7:0]), 
+                  .SEG_TXT(XLXN_6[63:0]));
+   SSeg_map  SM3 (.Disp_num({Hexs[31:0], Hexs[31:0]}), 
+                 .Seg_map(XLXN_7[63:0]));
+endmodule

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Anna/Desktop/Comp Org/Labs/Exp10/3180300155_TANGANNAYONGQI_10/M_datapathSim_isim_beh.exe" -prj "C:/Users/Anna/Desktop/Comp Org/Labs/Exp10/3180300155_TANGANNAYONGQI_10/M_datapathSim_beh.prj" "work.M_datapathSim" "work.glbl" 

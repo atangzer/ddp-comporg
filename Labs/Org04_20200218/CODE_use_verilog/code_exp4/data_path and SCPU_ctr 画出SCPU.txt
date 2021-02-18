@@ -1,0 +1,1 @@
+说明：请用data_path和SCPU_ctr这两个核画出实验3中的SCPU，PPT中有提供SCPU的接线图

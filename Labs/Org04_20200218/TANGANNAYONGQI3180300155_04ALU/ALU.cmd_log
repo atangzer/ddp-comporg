@@ -1,0 +1,11 @@
+sch2hdl -intstyle ise -family kintex7 -verilog ALU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} ALU.tfi 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} ALU.tfi 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.sch} 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/ALU.syr" 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/ALU.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04ALU/ALU.syr" 

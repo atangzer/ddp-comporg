@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+SCPU_ctrl instance_name (
+    .OPcode(OPcode), 
+    .Fun(Fun), 
+    .MIO_ready(MIO_ready), 
+    .RegDst(RegDst), 
+    .ALUSrc_B(ALUSrc_B), 
+    .MemtoReg(MemtoReg), 
+    .Jump(Jump), 
+    .Branch(Branch), 
+    .RegWrite(RegWrite), 
+    .mem_w(mem_w), 
+    .ALU_Control(ALU_Control), 
+    .CPU_MIO(CPU_MIO)
+    );
+
+

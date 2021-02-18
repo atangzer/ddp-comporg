@@ -1,0 +1,12 @@
+C:\Users\Anna\Desktop\Comp Org\Labs\Org04_20200218\OExp04-IP2CPU\topMod.ngc 1585078599
+../CODE_nucleus/code_all_nucleus/SAnti_jitter.ngc 1451378994
+../CODE_nucleus/code_all_nucleus/SEnter_2_32.ngc 1451379248
+../CODE_nucleus/code_all_nucleus/MIO_BUS.ngc 1456477320
+../CODE_nucleus/code_all_nucleus/PIO.ngc 1451379618
+ipcore_dir/RAM_B.ngc 1584818931
+ipcore_dir/ROM_D.ngc 1584820762
+C:\Users\Anna\Desktop\Comp Org\Labs\Org04_20200218\OExp04-IP2CPU/P2S.ngc 1451788551
+C:\Users\Anna\Desktop\Comp Org\Labs\Org04_20200218\OExp04-IP2CPU/Data_path.ngc 1456478940
+C:\Users\Anna\Desktop\Comp Org\Labs\Org04_20200218\OExp04-IP2CPU/SCPU_ctrl.ngc 1456478940
+C:\Users\Anna\Desktop\Comp Org\Labs\Org04_20200218\OExp04-IP2CPU/LED_P2S.ngc 1456476600
+OK

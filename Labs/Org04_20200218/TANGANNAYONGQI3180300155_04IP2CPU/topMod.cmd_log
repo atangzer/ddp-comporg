@@ -1,0 +1,21 @@
+sch2hdl -sympath {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus} -sympath {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/ipcore_dir} -intstyle ise -family kintex7 -verilog topMod_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.sch} 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../CODE_nucleus/code_all_nucleus -sd ipcore_dir -nt timestamp -uc "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/ok.ucf" -p xc7k160t-ffg676-2L "topMod.ngc" topMod.ngd  
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../CODE_nucleus/code_all_nucleus -sd ipcore_dir -nt timestamp -uc "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/ok.ucf" -p xc7k160t-ffg676-2L "topMod.ngc" topMod.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topMod_map.ncd topMod.ngd topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../CODE_nucleus/code_all_nucleus -sd ipcore_dir -nt timestamp -uc "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/ok.ucf" -p xc7k160t-ffg676-2L "topMod.ngc" topMod.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topMod_map.ncd topMod.ngd topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../CODE_nucleus/code_all_nucleus -sd ipcore_dir -nt timestamp -uc "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/ok.ucf" -p xc7k160t-ffg676-2L "topMod.ngc" topMod.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -mt off topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+bitgen -intstyle ise -f topMod.ut topMod.ncd 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../CODE_nucleus/code_all_nucleus -sd ipcore_dir -nt timestamp -uc "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/ok.ucf" -p xc7k160t-ffg676-2L "topMod.ngc" topMod.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -mt off topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+bitgen -intstyle ise -f topMod.ut topMod.ncd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Anna/Desktop/Comp Org/Labs/Exp11/3180300155_TANGANNAYONGQI_11/ctrlSim_isim_beh.exe" -prj "C:/Users/Anna/Desktop/Comp Org/Labs/Exp11/3180300155_TANGANNAYONGQI_11/ctrlSim_beh.prj" "work.ctrlSim" "work.glbl" 

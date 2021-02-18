@@ -1,0 +1,3 @@
+verilog isim_temp "M_datapath_IO.v"
+verilog isim_temp "M_datapathSim.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

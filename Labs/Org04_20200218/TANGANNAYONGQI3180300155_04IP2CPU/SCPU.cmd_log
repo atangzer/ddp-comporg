@@ -1,0 +1,1 @@
+sch2hdl -sympath {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus} -intstyle ise -family kintex7 -verilog SCPU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/SCPU.sch} 

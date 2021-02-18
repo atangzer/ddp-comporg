@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7k160t-ffg676-2 "topMod.ngc" topMod.ngd  
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7k160t-ffg676-2 "topMod.ngc" topMod.ngd  
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7k160t-ffg676-2 "topMod.ngc" topMod.ngd  
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7k160t-ffg676-2 "topMod.ngc" topMod.ngd  
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7k160t-ffg676-2 "topMod.ngc" topMod.ngd  
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../../Exp12/ngc -nt timestamp -i -p xc7k160t-ffg676-2 "topMod.ngc" topMod.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -mt off topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf 
+bitgen -intstyle ise -f topMod.ut topMod.ncd 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../Exp12/ngc -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2 "topMod.ngc" topMod.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -mt off topMod_map.ncd topMod.ncd topMod.pcf 
+xst -intstyle ise -ifn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.xst" -ofn "C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/OExp09_IP2MCPU/topMod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../Exp12/ngc -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2 "topMod.ngc" topMod.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topMod_map.ncd topMod.ngd topMod.pcf 
+par -w -intstyle ise -ol high -mt off topMod_map.ncd topMod.ncd topMod.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topMod.twx topMod.ncd -o topMod.twr topMod.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f topMod.ut topMod.ncd 

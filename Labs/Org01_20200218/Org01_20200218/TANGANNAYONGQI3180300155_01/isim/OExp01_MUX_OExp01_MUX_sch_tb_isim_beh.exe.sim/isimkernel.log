@@ -1,0 +1,28 @@
+Command line:
+   OExp01_MUX_OExp01_MUX_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61963
+
+Thu Feb 27 00:54:43 2020
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 5480.33 Meg
+
+ Total Signals          : 310
+ Total Nets             : 1758
+ Total Signal Drivers   : 120
+ Total Blocks           : 32
+ Total Primitive Blocks : 25
+ Total Processes        : 142
+ Total Traceable Variables  : 410
+ Total Scalar Nets and Variables : 124227
+
+ Total Simulation Time: 0.21875 sec
+
+ Current Memory Usage: 5480.33 Meg
+
+Thu Feb 27 00:54:52 2020
+

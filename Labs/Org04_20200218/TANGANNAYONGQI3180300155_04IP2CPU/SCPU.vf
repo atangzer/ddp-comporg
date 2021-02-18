@@ -1,0 +1,81 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SCPU.vf
+// /___/   /\     Timestamp : 03/21/2020 13:28:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus" -sympath "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/ipcore_dir" -intstyle ise -family kintex7 -verilog "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/SCPU.vf" -w "C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-IP2CPU/SCPU.sch"
+//Design Name: SCPU
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module SCPU(clk, 
+            Data_in, 
+            inst_in, 
+            INT, 
+            MIO_ready, 
+            reset, 
+            Addr_out, 
+            CPU_MIO, 
+            Data_out, 
+            mem_w, 
+            PC_out);
+
+    input clk;
+    input [31:0] Data_in;
+    input [31:0] inst_in;
+    input INT;
+    input MIO_ready;
+    input reset;
+   output [31:0] Addr_out;
+   output CPU_MIO;
+   output [31:0] Data_out;
+   output mem_w;
+   output [31:0] PC_out;
+   
+   wire [2:0] XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   wire XLXN_16;
+   wire XLXN_17;
+   wire XLXN_18;
+   
+   SCPU_ctrl  Controller (.Fun(inst_in[5:0]), 
+                         .MIO_ready(MIO_ready), 
+                         .OPcode(inst_in[31:26]), 
+                         .ALUSrc_B(XLXN_17), 
+                         .ALU_Control(XLXN_12[2:0]), 
+                         .Branch(XLXN_14), 
+                         .CPU_MIO(CPU_MIO), 
+                         .Jump(XLXN_15), 
+                         .MemtoReg(XLXN_16), 
+                         .mem_w(mem_w), 
+                         .RegDst(XLXN_18), 
+                         .RegWrite(XLXN_13));
+   Data_path  DataPath (.ALUSrc_B(XLXN_17), 
+                       .ALU_Control(XLXN_12[2:0]), 
+                       .Branch(XLXN_14), 
+                       .clk(clk), 
+                       .Data_in(Data_in[31:0]), 
+                       .inst_field(inst_in[25:0]), 
+                       .Jump(XLXN_15), 
+                       .MemtoReg(XLXN_16), 
+                       .RegDst(XLXN_18), 
+                       .RegWrite(XLXN_13), 
+                       .rst(reset), 
+                       .ALU_out(Addr_out[31:0]), 
+                       .Data_out(Data_out[31:0]), 
+                       .PC_out(PC_out[31:0]));
+endmodule

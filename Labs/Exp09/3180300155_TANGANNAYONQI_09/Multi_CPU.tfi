@@ -1,0 +1,20 @@
+// Verilog instantiation template created from schematic C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\Multi_CPU.sch - Mon May 18 12:26:36 2020
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   Multi_CPU UUT (
+		.inst_out(    ), 
+		.clk(    ), 
+		.reset(    ), 
+		.MIO_ready(    ), 
+		.CPU_MIO(    ), 
+		.PC_out(    ), 
+		.Data_out(    ), 
+		.Addr_out(    ), 
+		.Data_in(    ), 
+		.state(    ), 
+		.INT(    ), 
+		.mem_w(    )
+   );

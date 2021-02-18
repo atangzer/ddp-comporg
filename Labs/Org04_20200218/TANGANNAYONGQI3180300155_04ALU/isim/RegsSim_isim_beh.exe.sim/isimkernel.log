@@ -1,0 +1,28 @@
+Command line:
+   RegsSim_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51346
+
+Wed Mar 25 21:03:27 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5476.05 Meg
+
+ Total Signals          : 24
+ Total Nets             : 127
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 1281
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5476.05 Meg
+
+Wed Mar 25 21:03:59 2020
+

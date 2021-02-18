@@ -1,0 +1,6 @@
+说明：
+1.CODE_nucleuse目录：这个文件夹包含全部用软核方式实现要用到的代码。
+2.CODE_use_verilog目录：这个文件夹中是我们前几个实验用代码代替进去后实现的所需要的代码.
+3.CODE_nucleuse,CODE_use_verilog:这两个只要用一种方式实现就可以。
+4.shiqs目录：是施老师提供的必要文件，大家可以作为参考。
+5.code_ALU是设计ALU用到的代码，使用给出的器件画出ALU图。

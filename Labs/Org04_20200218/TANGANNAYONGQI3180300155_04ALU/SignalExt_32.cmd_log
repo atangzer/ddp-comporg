@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/SignalExt_32.v} -lang verilog -prj OExp04-ALU -o SignalExt_32.spl -module SignalExt_32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SignalExt_32.spl {C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/OExp04-ALU/SignalExt_32.sym} 

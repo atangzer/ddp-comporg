@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj OExp12-MSOC -o "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/OExp12-MSOC/ctrl.tfi" -lib work "C:/Users/Anna/Desktop/Comp Org/Labs/Exp12/OExp12-MSOC//mulit_ctrl_IO.v" -module ctrl -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus/Counter_3_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus/MIO_BUS_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus/Multi_8CH32_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus/PIO_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus/SAnti_jitter_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus/SEnter_2_32_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/CODE_nucleus/code_all_nucleus/clk_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/Data_path.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/HexTo8SEG.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/LED_P2S_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/MUX2T1_64.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/MUX2T1_8.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/MUX8T1_32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/P2S_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/SCPU_ctrl.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/SPIO_IO.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/SSeg_map_io.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/Scansync.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Anna/Desktop/Comp Org/Labs/Org04_20200218/TANGANNAYONGQI3180300155_04IP2CPU/Seg_map.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

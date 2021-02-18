@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp05/OExp05_DataPath/Data_path.sch} 
+sch2hdl -sympath {C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp05/3180300155_TANGANNAYONGQI_05/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Org05-08SCPU Design2020/Org05-08SCPU Design2020/Exp05/3180300155_TANGANNAYONGQI_05/Data_path.sch} 

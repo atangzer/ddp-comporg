@@ -1,0 +1,2 @@
+sch2hdl -sympath {C:/Users/Anna/Desktop/Comp Org/Labs/Exp10/OExp10-MDP/ipcore_dir} -intstyle ise -family kintex7 -verilog Multi_CPU_drc.vf -w {C:/Users/Anna/Desktop/Comp Org/Labs/Exp10/OExp10-MDP/Multi_CPU.sch} 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w {C:/Users/Anna/Desktop/Comp Org/Labs/Exp10/OExp10-MDP/Multi_CPU.sch} Multi_CPU.tfi 

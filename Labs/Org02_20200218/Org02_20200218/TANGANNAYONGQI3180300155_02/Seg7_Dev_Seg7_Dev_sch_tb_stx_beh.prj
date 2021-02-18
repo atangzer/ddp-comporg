@@ -1,0 +1,7 @@
+verilog isim_temp "Seg_map.v"
+verilog isim_temp "Scansync.v"
+verilog isim_temp "MUX2T1_8.v"
+verilog isim_temp "MC14495_ZJU.vf"
+verilog isim_temp "Seg7_Dev.vf"
+verilog isim_temp "Seg7_DevSim.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

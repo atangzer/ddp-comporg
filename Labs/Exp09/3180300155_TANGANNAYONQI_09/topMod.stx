@@ -1,0 +1,106 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Anna/Desktop/Comp Org/Labs/Exp09/3180300155_TANGANNAYONQI_09/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Reading design: topMod.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\MC14495_ZJU.vf" into library work
+Parsing module <MC14495_ZJU>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\SSeg_map_io.v" into library work
+Parsing module <SSeg_map>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\Seg_map.v" into library work
+Parsing module <Seg_map>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\Scansync.v" into library work
+Parsing module <ScanSync>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\P2S_IO.v" into library work
+Parsing module <P2S>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\M_datapath_IO.v" into library work
+Parsing module <M_datapath>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\MUX8T1_32.v" into library work
+Parsing module <MUX8T1_32>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\MUX2T1_8.v" into library work
+Parsing module <MUX2T1_8>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\MUX2T1_64.v" into library work
+Parsing module <MUX2T1_64>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\mulit_ctrl_IO.v" into library work
+Parsing module <ctrl>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\LED_P2S_IO.v" into library work
+Parsing module <LED_P2S>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\HexTo8SEG_io.v" into library work
+Parsing module <HexTo8SEG>.
+Parsing module <Hex2Seg>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\SSeg7_Dev.vf" into library work
+Parsing module <SSeg7_Dev>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\SPIO_IO.v" into library work
+Parsing module <SPIO>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\SEnter_2_32_IO.v" into library work
+Parsing module <SEnter_2_32>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\Seg7_Dev.vf" into library work
+Parsing module <MC14495_ZJU_MUSER_Seg7_Dev>.
+Parsing module <Seg7_Dev>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\SAnti_jitter_IO.v" into library work
+Parsing module <SAnti_jitter>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\PIO_IO.v" into library work
+Parsing module <PIO>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\Multi_CPU.vf" into library work
+Parsing module <Multi_CPU>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\Multi_8CH32_IO.v" into library work
+Parsing module <Multi_8CH32>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\MIO_BUS_IO.v" into library work
+Parsing module <MIO_BUS>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\ipcore_dir\RAM_B.v" into library work
+Parsing module <RAM_B>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\Counter_x.v" into library work
+Parsing module <Counter_x>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\clk_div.v" into library work
+Parsing module <clk_div>.
+Analyzing Verilog file "C:\Users\Anna\Desktop\Comp Org\Labs\Exp09\3180300155_TANGANNAYONQI_09\topMod.v" into library work
+Parsing module <topMod>.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.15 secs
+ 
+--> 
+
+Total memory usage is 4503576 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

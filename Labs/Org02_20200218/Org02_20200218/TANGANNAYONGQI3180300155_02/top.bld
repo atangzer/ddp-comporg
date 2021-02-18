@@ -1,0 +1,50 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -sd ../OExp02-7SEG -nt timestamp -uc
+ok.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd
+
+Reading NGO file "C:/Users/Anna/Desktop/Comp
+Org/Labs/Org02_20200218/Org02_20200218/TANGANNAYONGQI3180300155_02/top.ngc" ...
+Loading design module "C:\Users\Anna\Desktop\Comp
+Org\Labs\Org02_20200218\Org02_20200218\TANGANNAYONGQI3180300155_02/SAnti_jitter.
+ngc"...
+Loading design module "C:\Users\Anna\Desktop\Comp
+Org\Labs\Org02_20200218\Org02_20200218\TANGANNAYONGQI3180300155_02/SEnter_2_32.n
+gc"...
+Loading design module "ipcore_dir/RAM_B.ngc"...
+Loading design module "ipcore_dir/ROM_D.ngc"...
+Loading design module "C:\Users\Anna\Desktop\Comp
+Org\Labs\Org02_20200218\Org02_20200218\TANGANNAYONGQI3180300155_02/P2S.ngc"...
+Loading design module "C:\Users\Anna\Desktop\Comp
+Org\Labs\Org02_20200218\Org02_20200218\TANGANNAYONGQI3180300155_02/LED_P2S.ngc".
+..
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "ok.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4486304 kilobytes
+
+Writing NGD file "top.ngd" ...
+Total REAL time to NGDBUILD completion:  10 sec
+Total CPU time to NGDBUILD completion:   9 sec
+
+Writing NGDBUILD log file "top.bld"...
